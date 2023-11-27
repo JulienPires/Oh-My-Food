@@ -1,0 +1,88 @@
+/****** General ***********/
+* {
+    font-family: 'roboto', sans-serif;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Shrikhand', sans-serif;
+    height: 20px;
+    font-size: x-large;
+
+}
+
+.section_location {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.explorer-btn {
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 75px;
+    height: 50px;
+
+}
+
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.fonctionnement-card {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #00000033;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.restaurants-cards-img {
+    width: 100%;
+    height: 251px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.section-menu-container-cards {
+    border-radius: 25px;
+    box-shadow: 0 5px 15px #00000033;
+    cursor: pointer;
+    display: flex;
+    max-width: 90%;
+    padding: 20px 20px;
+    width: 100%;
+    
+}

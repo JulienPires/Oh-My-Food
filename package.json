@@ -1,0 +1,12 @@
+{
+    "name": "Ohmyfood",
+    "version": "1.0.0",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    },
+    "author": "Julien Pires",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.69.5"
+    }
+}

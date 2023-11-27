@@ -1,0 +1,57 @@
+.explorer-btn {
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 30px 82px;
+    height: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.fonctionnement-card {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    gap: 23px;
+    margin: 20px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #00000033;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    
+    .fonctionnement-card-title {
+        font-size: 16px;
+    }
+
+    .info {
+        margin-left: -95px;
+        
+    }
+
+    
+
+
+    
+}
+
+.btn-action {
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 30px 82px;
+    height: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+
+}
