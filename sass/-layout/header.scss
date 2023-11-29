@@ -42,5 +42,16 @@ header img {
     border-radius: 40px;
     margin-top: -100px;
     background-color: white;
+    z-index: unset;
+    position: sticky;
+
+    .section-menu-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+
+    }
+
     
 }

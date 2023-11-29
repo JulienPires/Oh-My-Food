@@ -21,6 +21,10 @@
     border-radius: 0 0 20px 20px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
     width: 95%;
+    justify-content: space-between; 
+    align-items: center;
+
+
 
     .restaurants-cards-info-container {
         flex-direction: column;
@@ -28,13 +32,16 @@
 
     }
 
-    .fa-regular.fa-heart {
-        padding-left: 140px;
-        padding-top: 20px;
+    .restaurants-cards-info-like {
+    
+        margin-right: 20px;
 
     }
+   
 
 }
+
+
 
 .section-menu-container {
     padding: 0 5px;
@@ -50,6 +57,8 @@
         margin-top: 12px;
         height: 72px;
         padding: 15px;
+        
+        
         
         
 
