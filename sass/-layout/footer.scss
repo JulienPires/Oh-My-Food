@@ -5,6 +5,8 @@
     gap: 10px;
     padding-left: 5px;
     margin-top: 50px;
+    padding-bottom: 10px;
+    color: white;
 
     
     
@@ -21,6 +23,10 @@
         
     }
 
+    .footer-title {
+        
+    }
+
     .footer-title img {
         width: 150px;
         color: white;
@@ -29,9 +35,35 @@
         
         
         
+        
     }
     
     
+}
+
+@media (min-width: 700px) {
+    .footer {
+        padding-left: 20px;
+       display: flex;
+       align-items: end;
+       flex-direction: row-reverse;
+       padding-right: 50px;
+       gap: 20px;
+
+       .footer-title img {
+        padding-bottom: 0;
+        
+       }
+
+       
+    }
+
+    .footer-order {
+        display: flex;
+        gap: 25px;
+        padding-bottom: 5px;
+    }
+
 }
     
 

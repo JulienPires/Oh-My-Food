@@ -1,0 +1,20 @@
+@media (min-width: 700px) {
+.fa-regular.fa-heart {
+   transition: all 450ms;
+
+   &:hover {
+       transform: scale(1.90);
+       background-color: #FF79DA;
+
+   }
+
+   &:active {
+       background-color: #9356dc;
+
+   }
+}
+
+
+
+
+   }

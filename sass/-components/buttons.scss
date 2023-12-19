@@ -10,7 +10,17 @@
     font-size: 16px;
     text-decoration: none;
     align-items: center;
+    transition: all 450ms;
 
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
+
+.fonctionnement {
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .fonctionnement-card {
@@ -25,20 +35,16 @@
     cursor: pointer;
     font-size: 20px;
     justify-content: center;
-    
+
     .fonctionnement-card-title {
         font-size: 16px;
     }
 
     .info {
         margin-left: -95px;
-        
+
     }
 
-    
-
-
-    
 }
 
 .btn-action {
@@ -53,5 +59,73 @@
     font-size: 16px;
     text-decoration: none;
     align-items: center;
+    transition: all 450ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 
 }
+
+@media (min-width: 700px) {
+    .fonctionnement {
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0 230px ;
+        
+        
+    }
+
+    .fonctionnement-desktop {
+        flex-direction: row;
+        display: flex;
+        
+        
+        
+        
+        .fonctionnement-card {
+            width: 500px;
+            margin-right: 50px;
+            
+            
+        }
+
+    }
+    .background-explorer {
+        
+        display: flex;
+       justify-content: center;
+       
+       
+        
+    }
+
+    .background-grey {
+        background-color:#F6F6F6;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .explorer-btn {
+        width: 400px;
+       
+        
+    }
+
+    .section-commander {
+        display: flex;
+       justify-content: center;
+       
+    }
+
+    .btn-action {
+        width: 400px;
+        display: flex;
+    }
+
+    .info {
+        margin-right: 20px;
+    }
+
+}
+     

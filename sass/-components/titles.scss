@@ -34,17 +34,18 @@
     height: 3px;
     width: 75%;
     border-bottom: #99e2d0 3px solid;
-    width: 40px;
+    width: 40px;    
     
-    
-    
-    
-    
-    
+}
 
+@media (min-width: 700px) {
     
-    
-    
+    .section-title {
+        margin-top: 60px;
+    }
+
+
+
 }
 
 
